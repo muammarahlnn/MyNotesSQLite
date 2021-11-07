@@ -1,10 +1,10 @@
-package com.ardnn.mynotes.database
+package com.ardnn.mynotessqlite.database
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
-import com.ardnn.mynotes.database.DatabaseContract.NoteColumns.Companion._ID
+import com.ardnn.mynotessqlite.database.DatabaseContract.NoteColumns.Companion._ID
 import java.sql.SQLException
 
 class NoteHelper(context: Context) {

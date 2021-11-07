@@ -1,4 +1,4 @@
-package com.ardnn.mynotes
+package com.ardnn.mynotessqlite
 
 import android.content.ContentValues
 import android.content.Intent
@@ -9,10 +9,10 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.ardnn.mynotes.database.DatabaseContract
-import com.ardnn.mynotes.database.NoteHelper
-import com.ardnn.mynotes.databinding.ActivityNoteAddUpdateBinding
-import com.ardnn.mynotes.entities.Note
+import com.ardnn.mynotessqlite.database.DatabaseContract
+import com.ardnn.mynotessqlite.database.NoteHelper
+import com.ardnn.mynotessqlite.databinding.ActivityNoteAddUpdateBinding
+import com.ardnn.mynotessqlite.entities.Note
 import java.text.SimpleDateFormat
 import java.util.*
 

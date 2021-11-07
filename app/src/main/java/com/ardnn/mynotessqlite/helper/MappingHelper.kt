@@ -1,8 +1,8 @@
-package com.ardnn.mynotes.helper
+package com.ardnn.mynotessqlite.helper
 
 import android.database.Cursor
-import com.ardnn.mynotes.database.DatabaseContract
-import com.ardnn.mynotes.entities.Note
+import com.ardnn.mynotessqlite.database.DatabaseContract
+import com.ardnn.mynotessqlite.entities.Note
 
 object MappingHelper {
     fun mapCursorToArrayList(notesCursor: Cursor?): ArrayList<Note> {

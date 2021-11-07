@@ -1,12 +1,12 @@
-package com.ardnn.mynotes.adapters
+package com.ardnn.mynotessqlite.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.ardnn.mynotes.R
-import com.ardnn.mynotes.databinding.ItemRvNotesBinding
-import com.ardnn.mynotes.entities.Note
+import com.ardnn.mynotessqlite.R
+import com.ardnn.mynotessqlite.databinding.ItemRvNotesBinding
+import com.ardnn.mynotessqlite.entities.Note
 
 class NoteAdapter(private val onItemClickCallback: OnItemClickCallback) :
     RecyclerView.Adapter<NoteAdapter.ViewHolder>() {

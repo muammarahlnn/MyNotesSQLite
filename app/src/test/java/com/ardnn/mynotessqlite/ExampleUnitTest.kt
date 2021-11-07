@@ -1,4 +1,4 @@
-package com.ardnn.mynotes
+package com.ardnn.mynotessqlite
 
 import org.junit.Test
 

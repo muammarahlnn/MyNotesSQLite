@@ -1,4 +1,4 @@
-package com.ardnn.mynotes.entities
+package com.ardnn.mynotessqlite.entities
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

@@ -1,4 +1,4 @@
-package com.ardnn.mynotes
+package com.ardnn.mynotessqlite
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,11 +8,11 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.ardnn.mynotes.adapters.NoteAdapter
-import com.ardnn.mynotes.database.NoteHelper
-import com.ardnn.mynotes.databinding.ActivityMainBinding
-import com.ardnn.mynotes.entities.Note
-import com.ardnn.mynotes.helper.MappingHelper
+import com.ardnn.mynotessqlite.adapters.NoteAdapter
+import com.ardnn.mynotessqlite.database.NoteHelper
+import com.ardnn.mynotessqlite.databinding.ActivityMainBinding
+import com.ardnn.mynotessqlite.entities.Note
+import com.ardnn.mynotessqlite.helper.MappingHelper
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
